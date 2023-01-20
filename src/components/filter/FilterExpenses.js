@@ -9,10 +9,10 @@ const FilterExpenses = ({ selected, onSelectYear }) => {
     }
 
     return (
-        <div className="flex justify-between">
-            <div className=" text-[#04eeff] text-xl font-bold">Filter</div>
-            <div>
-                <select value={selected} onChange={handleSelectedYear}>
+        <div className="flex justify-around">
+            <div className=" text-[#04eeff] text-xl font-bold pt-2">Filter</div>
+            <div className=" pt-1">
+                <select className="p-1 rounded" value={selected} onChange={handleSelectedYear}>
                     <option value="all">All</option>
                     <option value="2023">2023</option>
                     <option value="2022">2022</option>

@@ -29,7 +29,7 @@ const Body = ({ props }) => {
 
     return (
         <div className="justify-center">
-            <div className="">
+            <div className=" h-12 mt-5 mb-5">
                 <FilterExpenses selected={filteredYear} onSelectYear={recievedYearPicked} />
             </div>
             <ExpenseDisplay dataFromBody={toCheck()} />

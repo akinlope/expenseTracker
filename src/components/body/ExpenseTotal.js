@@ -11,9 +11,8 @@ const ExpenseTotal = ({ sumTotal }) => {
 // console.log(typeof(numToInt));
     return ( 
         <div className=" flex float-right">
-            <div className=" mt-2 mr-2 rounded ">
-                {/* <span className=" ">Total: $ <p className="font-extrabold text-white text-xl" >{num.toLocaleString("en-US")}</p></span> */}
-                <div className=" flex text-white text-lg">Total: $ <p className=" font-extrabold">{num.toLocaleString("en-US")}</p></div>
+            <div className=" mt-2 mr-5 border-2 p-2 rounded">
+                <div className=" flex text-white text-lg">Total: $<p className=" font-extrabold">{num.toLocaleString("en-US")}</p></div>
             </div>
         </div>
      );
